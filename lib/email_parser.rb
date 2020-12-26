@@ -10,8 +10,8 @@ class EmailAddressParser
     end
     
     def parse
-        @email_array = @email_addresses.split(", ").uniqu
-        @email_array.join(" ").split(" ").uniqu
+        @email_array = @email_addresses.split(", ").uniq
+        @email_array.join(" ").split(" ").uniq
 
     end
 end
